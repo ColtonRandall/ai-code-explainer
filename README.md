@@ -1,9 +1,10 @@
 # 🤖 Colton's AI Code Explainer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [**See the full working app here** 🔗](https://ai-code-explainer-sigma.vercel.app)
 
 ![Gif](/public/gif/aiCodeExplainer.gif)
-
 
 A lightweight full-stack web app that explains code snippets in plain English using AI via the [OpenRouter](https://openrouter.ai/) API.
 
@@ -24,7 +25,6 @@ Built with **Next.js (App Router)**, **TypeScript**, and the **meta-llama/llama-
 
 <br/>
 <br/>
-
 
 ## UI Preview
 
