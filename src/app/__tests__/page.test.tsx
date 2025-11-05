@@ -101,7 +101,7 @@ describe('HomePage Component', () => {
 
   it('calls API with correct parameters', async () => {
     const user = userEvent.setup()
-    const testCode = 'function test() returns true'
+    const testCode = 'const x = 5;'
     
     ;(global.fetch as jest.Mock).mockResolvedValueOnce({
       json: async () => ({ explanation: 'Test explanation' })
