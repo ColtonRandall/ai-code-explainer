@@ -92,7 +92,7 @@ describe('POST /api/explain', () => {
           {
             role: 'system',
             content:
-              'You are a helpful programming assistent. Explain the provided code clearly, concisely, and simply.',
+              'You are a helpful programming assistant. Explain the provided code clearly, concisely, and simply.',
           },
           {
             role: 'user',

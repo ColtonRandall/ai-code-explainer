@@ -20,7 +20,7 @@ describe('HomePage Component', () => {
     render(<HomePage />)
     const textarea = screen.getByRole('textbox')
     expect(textarea).toBeInTheDocument()
-    expect(textarea).toHaveAttribute('placeholder', 'Paste code here... ')
+    expect(textarea).toHaveAttribute('placeholder', 'Paste code here... ');
   })
 
   it('renders explain button', () => {
